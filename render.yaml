@@ -3,5 +3,6 @@ services:
     name: n8nloc
     env: node
     plan: free
+    nodeVersion: 20.20.0
     buildCommand: npm install
-    startCommand: n8n start
+    startCommand: npm start
