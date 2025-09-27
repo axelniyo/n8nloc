@@ -3,5 +3,3 @@ services:
     name: n8nloc
     env: node
     plan: free
-    buildCommand: npm run build
-    startCommand: npm run debug
